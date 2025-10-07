@@ -26,7 +26,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
-      navigation.expand
+    - navigation.expand
     - navigation.instant
     - navigation.instant.prefetch
     - search.share
