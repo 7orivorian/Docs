@@ -145,5 +145,5 @@ if (eventBus.dispatch(new StatusEvent())) {
     ```
 
     ???+ warning
-        It's recommended not to call `#!java setEventStatus()` outside of the 
+        It's not recommended to call `#!java setEventStatus()` outside of the 
         status event itself, even in your own implementations.

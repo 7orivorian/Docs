@@ -9,11 +9,11 @@ copyright notice and disclaimer in your distribution. The software is provided
 "as is," without any warranties or conditions.
 
 [^1]:
-Not a substitute license. This intended only to be a
-more human-readable summary.
+Not a substitute license. This is intended only to be a plain English summary.
 
 ## Legal Text
 
+```txt
 MIT License
 
 Copyright (c) 2021-2025 7orivorian
@@ -35,3 +35,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
