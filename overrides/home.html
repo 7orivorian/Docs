@@ -1,0 +1,67 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+    .md-header {
+        position: initial;
+        box-shadow: none;
+    }
+
+    .md-main {
+        display: none;
+    }
+
+    .md-footer {
+        margin-top: auto;
+    }
+
+    @media screen and (min-width: 60em) {
+        .md-sidebar--secondary {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 76.25em) {
+        .md-sidebar--primary {
+            display: none;
+        }
+    }
+
+    .md-tabs {
+
+    }
+
+    @media only screen and (max-width: 1023px) {
+        .md-typeset pre {
+            display: grid;
+        }
+
+        .md-typeset .tabbed-set {
+            display: grid;
+        }
+    }
+</style>
+<section class="mdx-container">
+    <div class="md-grid md-typeset">
+        <header class="mdx-hero">
+            <img
+                    class="home__logo"
+                    src="assets/images/mkdocs-material-icon.png"
+                    alt="MKDocs-Material Logo"
+                    draggable="false"
+            >
+            <p class="mdx-description">
+                The best documentation for my best projects.
+            </p>
+            <a href="index/projects" title="Browse Projects" class="md-button md-button--primary">Browse Projects</a>
+        </header>
+        <div class="mdx-description">
+            {{ page.content }}
+        </div>
+    </div>
+</section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}
+{{ super() }}
+{% endblock %}

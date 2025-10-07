@@ -1,0 +1,15 @@
+:root > [data-md-color-scheme=slate] {
+    --md-code-hl-color: #3574F0;
+    --md-code-hl-number-color: #4690E7;
+    --md-code-hl-special-color: #42FFC2;
+    --md-code-hl-function-color: #F3BA51;
+    --md-code-hl-constant-color: #B189F5;
+    --md-code-hl-keyword-color: #E17945;
+    --md-code-hl-string-color: #439154;
+    --md-code-hl-name-color: #A5A6AD;
+    --md-code-hl-operator-color: #CCCED3;
+    --md-code-hl-punctuation-color: #A5A6AD;
+    --md-code-hl-comment-color: #7A7E85;
+    --md-code-hl-generic-color: #CCCED3;
+    --md-code-hl-variable-color: #CCCED3;
+}

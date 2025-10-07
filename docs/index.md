@@ -1,3 +1,12 @@
-# Heya!
+---
+template: home.html
+---
 
-Here lies the documentation for all my public projects!
+<!-- Placeholder to make the page render -->
+
+<div class="mdx-grid-container" markdown>
+<div class="mdx-grid-wrapper mdx-grid-size" markdown>
+<div class="mdx-grid-child" markdown></div>
+<div class="mdx-grid-child" markdown></div>
+</div>
+</div>
